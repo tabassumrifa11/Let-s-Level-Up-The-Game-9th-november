@@ -38,7 +38,7 @@ sprite1.rect.x = random.randint(0, SCREEN_WIDTH - sprite1.rect.width)
 sprite1.rect.y = random.randint( 0, SCREEN_HEIGHT - sprite1.rect.height)
 all_sprites.add(sprite1)
 
-sprite2 = Sprite(pygame.Color('red'), 20, 30)
+sprite2 = Sprite(pygame.Color('red'), 20, 30,)
 sprite2.rect.x = random.randint(0, SCREEN_WIDTH - sprite2.rect.width)
 sprite2.rect.y = random.randint(0, SCREEN_HEIGHT - sprite2.rect.height)
 all_sprites.add(sprite2)
